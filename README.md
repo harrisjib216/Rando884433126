@@ -27,24 +27,24 @@ I figured that's like trying to decrypt sha256, so for now, you can't decipher :
 
 
 
-# decide if it's a file or string
-python3 translate.py "hello"
-python3 decipher.py "110044"                    -- in the works...
+# DECIDE IF IT'S A FILE OR A STRING
+    ./translate.py "hello"
+    ./decipher.py "110044"                    -- in the works...
 
 or
 
-python3 translate.py hello.rando884433126
-python3 decipher.py hello.rando884433126        -- in the works again....
+    ./translate.py hello.rando884433126
+    ./decipher.py hello.rando884433126        -- in the works again....
 
 
 
-# TRANSLATE
+# TRANSLATING
 See "translate.py"
 
 
-# SAVE
+# SAVING
 Lastly, you can also tell Rando884433126 to save your translation
 to a file or append it to your old file.
     
-    python3 translate.py "hello" +@ap_pe#nd
-    python3 decipher.py "110044" +@ap_pe#nd                   -- in the works...
+    ./translate.py "hello" +@ap_pe#nd
+    ./decipher.py "110044" +@ap_pe#nd                   -- in the works...
