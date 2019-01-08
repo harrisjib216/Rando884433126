@@ -42,36 +42,9 @@ python3 decipher.py hello.rando884433126        -- in the works again....
 See "translate.py"
 
 
-
-# PRINT
-You can tell Rando884433126 to print or not print out your result.
-I mean, personally I like to results cuz we're solution-oriented
-'round here!! But you still have the option.
-
-    # do not print to user
-    python3 translate.py "hello" %no_print
-    python3 decipher.py "110044" %no_print                   -- in the works...
-
-
-
 # SAVE
 Lastly, you can also tell Rando884433126 to save your translation
 to a file or append it to your old file.
     
-    python3 translate.py "hello" %append
-    python3 decipher.py "110044" %new_file                   -- in the works...
-
-
-
-
-
-translation = []
-    for word in randF:
-        newChars = []
-        newWord = 0
-        for char in word:
-            if char != " ":
-                newWord += ord(char)
-        
-        translation.append(newWord)
-        print(translation)
+    python3 translate.py "hello" +@ap_pe#nd
+    python3 decipher.py "110044" +@ap_pe#nd                   -- in the works...
