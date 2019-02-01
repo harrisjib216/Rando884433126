@@ -2,12 +2,14 @@
 import sys
 
 
-
 # write new file
 def riht(finalll):
     phile = open('uR_seCret_mesAage_m8.txt', 'w+')
-    for word in finalll:
-        phile.write(str(word) + ' ')
+    if not isinstance(finalll, list):
+        phile.write(str(finalll) + ' ')
+    else:
+        for word in finalll:
+            phile.write(str(word) + ' ')
 
     phile.write("\n")
     phile = open('uR_seCret_mesAage_m8.txt', 'r+')

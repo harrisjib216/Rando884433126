@@ -18,7 +18,7 @@ make sense, then... idk, use a different program...
 Just kidding!
 Here's an example.
 
-> ummm, cipher my text please: "hello"
+> ummm, cipher my text please: hello
 > I mean... i guess i'll help you: *****
 
 
@@ -28,13 +28,13 @@ I figured that's like trying to decrypt sha256, so for now, you can't decipher :
 
 
 # DECIDE IF IT'S A FILE OR A STRING
-    ./translate.py "hello"
-    ./decipher.py "110044"                    -- in the works...
+    ./translate.py hello
+    ./decipher.py 110044                        -- in the works...
 
 or
 
-    ./translate.py hello.rando884433126
-    ./decipher.py hello.rando884433126        -- in the works again....
+    ./translate.py fileName.rando884433126
+    ./decipher.py fileName.rando884433126        -- in the works again....
 
 
 
@@ -43,8 +43,8 @@ See "translate.py"
 
 
 # SAVING
-Lastly, you can also tell Rando884433126 to save your translation
-to a file or append it to your old file.
+Lastly, you can also tell Rando884433126 to append your translation
+to your old file.
     
-    ./translate.py "hello" +@ap_pe#nd
-    ./decipher.py "110044" +@ap_pe#nd                   -- in the works...
+    ./translate.py appendPls.rando884433126 +@ap_pe#nd
+    ./decipher.py appendPls.rando884433126 +@ap_pe#nd                   -- in the works... still..
